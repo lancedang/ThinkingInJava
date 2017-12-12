@@ -4,6 +4,7 @@ import java.util.EnumSet;
 import java.util.Set;
 
 /**
+ * 通过 EnumSet 且以 enum 为参数 创建EnumSet, 然后用 MathSetOperation 集合操作处理
  * Created by Dangdang on 2017/12/12.
  */
 public class WaterColorSets {

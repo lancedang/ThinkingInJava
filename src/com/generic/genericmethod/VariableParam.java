@@ -7,6 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
+ * 方法参数为 String... 或 T...  这种可变参数列表的练习
  * Created by Dangdang on 2017/12/9.
  */
 public class VariableParam {
