@@ -58,6 +58,9 @@ public class ContainerMethodsDifferences {
     public static void main(String[] args) {
         Set<String> diffOfMapAndSet = showDiffMethod(HashSet.class, HashMap.class);
         System.out.println(diffOfMapAndSet);
+        List<String> stringList = containerInterfaceList("sd".split("").getClass());
+        //打印[java.lang.Cloneable, java.io.Serializable]
+        System.out.println(Optional.of(stringList).orElse(null));
     }
 
 }

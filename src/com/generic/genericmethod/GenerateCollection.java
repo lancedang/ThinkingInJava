@@ -18,7 +18,8 @@ public class GenerateCollection {
      * 或者 用任意类型的容器存放任意类型的数据, 任意类型容器由用户指定(List, set)
      *
      * @param collection  返回的 Collection, 用接口Collection作为参数的意义在于： 可将返回元素保存到
-     *                    List, Set, Map 等任意 Collection 中
+     *                    List, Set, Map 等任意 Collection 中;
+     *                    还有一点是传入的Collection经过填充元素后而返回
      * @param myGenerator 生成器, 可扩展, 用于生成任意类型对象
      * @param count       容量大小
      * @param <T>         容器元素类型
